@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.26b26522.css",
-    "main.js": "/static/js/main.0fc20af0.js",
-    "static/media/bcg-2.png": "/static/media/bcg-2.b039432c044f03d2ab06.png",
-    "static/media/bcg.jpg": "/static/media/bcg.36413bc26ab200824c99.jpg",
-    "index.html": "/index.html",
-    "main.26b26522.css.map": "/static/css/main.26b26522.css.map",
-    "main.0fc20af0.js.map": "/static/js/main.0fc20af0.js.map"
+    "main.css": "/truemilky/crazy-color-lottery/static/css/main.04859d03.css",
+    "main.js": "/truemilky/crazy-color-lottery/static/js/main.0fc20af0.js",
+    "static/media/bcg-2.png": "/truemilky/crazy-color-lottery/static/media/bcg-2.b039432c044f03d2ab06.png",
+    "static/media/bcg.jpg": "/truemilky/crazy-color-lottery/static/media/bcg.36413bc26ab200824c99.jpg",
+    "index.html": "/truemilky/crazy-color-lottery/index.html",
+    "main.04859d03.css.map": "/truemilky/crazy-color-lottery/static/css/main.04859d03.css.map",
+    "main.0fc20af0.js.map": "/truemilky/crazy-color-lottery/static/js/main.0fc20af0.js.map"
   },
   "entrypoints": [
-    "static/css/main.26b26522.css",
+    "static/css/main.04859d03.css",
     "static/js/main.0fc20af0.js"
   ]
 }
