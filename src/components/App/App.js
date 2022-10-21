@@ -60,48 +60,52 @@ const App = () => {
 
   return (
     <div className='application__wrapper'>
-      <div className='application'>
-        <div className={`application__face ${isActive ? "active" : ""}`}></div>
-        <div className='random__color' style={color}>
-          <span className='random__color--hex'>{color.backgroundColor}</span>
-          <input
-            className='random__color--hex'
-            hidden={true}
-            type='text'
-            readOnly
-            value={color.backgroundColor}
-            id='myInput'
-          ></input>
+      <div className='container'>
+        <div className='application'>
+          <div
+            className={`application__face ${isActive ? "active" : ""}`}
+          ></div>
+          <div className='random__color' style={color}>
+            <span className='random__color--hex'>{color.backgroundColor}</span>
+            <input
+              className='random__color--hex'
+              hidden={true}
+              type='text'
+              readOnly
+              value={color.backgroundColor}
+              id='myInput'
+            ></input>
+          </div>
+          <button
+            type='button'
+            className='random__color--button'
+            onClick={changeColor}
+          >
+            Change!
+          </button>
+
+          <button
+            type='button'
+            className='random__color--button copy--btn'
+            onClick={() => {
+              copyToClipboard();
+              handleClick();
+            }}
+          >
+            Pick Up!
+          </button>
+
+          <button
+            type='button'
+            className='random__color--button lottery__btn'
+            onClick={() => {
+              colorLotteryApply();
+              handleClick();
+            }}
+          >
+            {buttonLotteryValue}
+          </button>
         </div>
-        <button
-          type='button'
-          className='random__color--button'
-          onClick={changeColor}
-        >
-          Change!
-        </button>
-
-        <button
-          type='button'
-          className='random__color--button copy--btn'
-          onClick={() => {
-            copyToClipboard();
-            handleClick();
-          }}
-        >
-          Pick Up!
-        </button>
-
-        <button
-          type='button'
-          className='random__color--button lottery__btn'
-          onClick={() => {
-            colorLotteryApply();
-            handleClick();
-          }}
-        >
-          {buttonLotteryValue}
-        </button>
       </div>
     </div>
   );
